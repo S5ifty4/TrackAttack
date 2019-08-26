@@ -17,11 +17,11 @@ var racetrackRoutes = require("./routes/racetracks");
 var indexRoutes = require("./routes/index");
 
 
-//var url = process.env.DATABASEURL || "mongodb://localhost:27017/track_attack";
+var url = process.env.DATABASEURI || "mongodb://localhost:27017/track_attack";
 //seedDB();
-mongoose.connect("mongodb://localhost:27017/track_attack", { useNewUrlParser: true });
+//mongoose.connect("mongodb://localhost:27017/track_attack", { useNewUrlParser: true });
 
-//mongoose.connect(url, { useNewUrlParser: true });
+mongoose.connect(process.env.DATABASEURI, { useNewUrlParser: true });
 //console.log(process.env.databaseURL);
 
 app.use(bodyParser.urlencoded({extended: true}));
