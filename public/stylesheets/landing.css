@@ -47,15 +47,15 @@ body {
     animation-delay: 10s; 
   }
   .slideshow li:nth-child(3) { 
-    background-image: url(http://i.imgur.com/emvhOnb.jpg);
+    background-image: url(https://www.raconteur.net/wp-content/uploads/2018/04/A-bird%E2%80%99s-eye-view-of-the-illuminated-Marina-Bay-Street-Circuit-e1524211598843-1280x720.jpg);
     animation-delay: 20s; 
   }
   .slideshow li:nth-child(4) { 
-    background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
+    background-image: url(https://images.musement.com/cover/0001/93/thumb_92147_cover_header.png?w=1200&h=630&q=60&fit=crop);
     animation-delay: 30s; 
   }
   .slideshow li:nth-child(5) { 
-    background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
+    background-image: url(http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2012/05/01053016/FSW_birdeye1.jpg);
     animation-delay: 40s; 
   }
 
