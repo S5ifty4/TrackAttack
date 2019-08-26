@@ -1,0 +1,20 @@
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail{
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form{
+    display:inline;
+}
+
+.jumbotron {
+    background-image: url("http://eskipaper.com/images/race-track-wallpapers-1.jpg");
+    background-size: cover;
+  }
