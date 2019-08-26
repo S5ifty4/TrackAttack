@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 var racetrackSchema = new mongoose.Schema({
     name: String,
-    price: String,
+    length: String,
     image: String,
     description: String,
     author: {

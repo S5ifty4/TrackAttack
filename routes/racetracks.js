@@ -23,13 +23,13 @@ router.post("/", middleware.isLoggedIn, function(req,res){
     //redirect back to racetracks page
     var name = req.body.name;
     var image = req.body.image;
-    var price  =req.body.price;
+    var length  =req.body.length;
     var desc = req.body.description;
     var author = {
         id: req.user._id,
         username: req.user.username
     }
-    var newRacetrack={name:name, price: price, image: image, description: desc, author: author};
+    var newRacetrack={name:name, length: length, image: image, description: desc, author: author};
     //racetracks.push(newRacetrack);
     //create a new racetrack and save to DB
     Racetrack.create(newRacetrack, function(err, newlyCreated){
